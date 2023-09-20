@@ -5,7 +5,7 @@ require("dotenv").config();
 const scrapeLogic = async (postData, res) => {
 
   try {
-    const request = await axios.post('https://zxvo1ut035.execute-api.us-east-2.amazonaws.com/default/ssr', {
+    const request = await axios.post('https://sp229w2q74.execute-api.us-east-2.amazonaws.com/default/ssr-preproduction', {
       projectId: postData.projectId,
       period: postData.period,
     })
